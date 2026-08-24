@@ -37,13 +37,13 @@ do {
 
 // 7
 var itemsInCart = 10;
-while (itemsInCart > 5) {
+while (itemsInCart-- > 5) {
   console.log("start shoping");
 }
 
 do {
   console.log("start shoping");
-} while (itemsInCart > 5);
+} while (itemsInCart-- > 5);
 
 // while check condetion before start the code block
 // do while excute the code block then check the condetion
@@ -109,7 +109,7 @@ const adultOrChile = window.prompt("type the age:");
 adultOrChile >= 18 ? console.log("Adult") : console.log("Minor");
 
 // 16
-const dat = window.prompt("type day name:");
+const day = window.prompt("type day name:");
 switch (day) {
   case "saterday":
     window.alert("sat");
@@ -127,7 +127,7 @@ switch (day) {
 // 17
 const coast = window.prompt("coast :");
 
-for (let e = 1; i <= 10; e++) {
+for (let e = 1; e <= 10; e++) {
   console.log(`${e} x ${coast} = ${e * coast} `);
 }
 
