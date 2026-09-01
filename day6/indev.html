@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>NTI Mini Store</title>
+</head>
+<body>
+  <h1>NTI Mini Store</h1>
+
+  <div id="formBox">
+    <div>
+      <input type="text" id="nameInput" placeholder="Name">
+      <input type="text" id="categoryInput" placeholder="Category">
+    </div>
+    <div>
+      <input type="number" id="priceInput" placeholder="Price">
+      <input type="number" id="quantityInput" placeholder="Quantity">
+    </div>
+    <div>
+      <button id="addBtn" type="button">add</button>
+      <button id="updateBtn" type="button">update</button>
+    </div>
+  </div>
+
+  <table id="productsTable" border="1">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Price</th>
+        <th>Category</th>
+        <th>Quantity</th>
+        <th>actions</th>
+      </tr>
+    </thead>
+    <tbody id="productsBody">
+    </tbody>
+  </table>
+
+  <div id="productsSummary">
+    Products added: <span id="productCount">0</span>
+  </div>
+
+  <script src="../day5/index.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
